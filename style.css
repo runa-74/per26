@@ -1,0 +1,75 @@
+.box1{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border: 20px solid #000;
+    border-image-source: url(br1.jpg);
+    border-image-slice: 70 ;
+    border-image-repeat: space;
+}
+.box11{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border: 20px solid #000;
+    border-image-source: url(br1.jpg);
+    border-image-slice: 70 ;
+    border-image-repeat: round;
+}
+.box111{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border: 20px solid #000;
+    border-image-source: url(br1.jpg);
+    border-image-slice: 70 ;
+    border-image-repeat: stretch;
+}
+
+.box2{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border: 20px solid #000;
+    border-image-source: url(br3.png);
+    border-image-slice: 28;
+    border-image-repeat: round;
+    border-image-width: 30px;
+    background-color: green;
+    border-image-outset: 28px;
+}
+.box22{ 
+        border: 15px solid transparent;
+        padding: 15px;
+        border-image-source: url(br3.png);
+        border-image-repeat: stretch;  
+        border-image-slice: 30;
+      
+}
+.box222{
+    border: 15px solid transparent;
+    padding: 15px;
+    border-image-source: url(br3.png);
+    border-image-repeat: repeat;
+    border-image-slice: 30;
+}
+.box3{
+    margin: 30px;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border: 20px solid #000;
+    border-image: linear-gradient(red,green) 30 stretch;
+}
+.box4{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    background-image: linear-gradient(to right,green,red,blue);
+}
+.box5{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    background-image: repeating-linear-gradient(yellow 10%,green 20%,red 30%);
+}
